@@ -107,7 +107,7 @@ func GetUserLoans(userID string) ([]Loan, error) {
 ```go
 func CallPartnerAPI(payload []byte) (*http.Response, error) {
 	req, _ := http.NewRequest("POST", "https://partner.com/api/submit", bytes.NewReader(payload))
-	req.Header.Set("Authorization", "Bearer sk_live_4f8a9d2b1c7e6f3a9d8b2c1e")
+	req.Header.Set("Authorization", "Bearer xxxx")
 	return http.DefaultClient.Do(req)
 }
 ```
