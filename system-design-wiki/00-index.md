@@ -25,6 +25,28 @@ A self-contained, in-depth reference covering every topic in the AlgoMaster Syst
 | 14 | [Observability](./14-observability.md) | Logs, Metrics, Traces, SLO/SLI, Prometheus, Error budget |
 | 15 | [System Design Interviews](./15-system-design-interviews.md) | RADIO framework, URL Shortener, Twitter, Netflix, Uber, WhatsApp, Drive, Crawler |
 | 16 | [Design Primer Supplements ⭐](./16-design-primer-supplements.md) | Availability math, Federation, Denormalization, SQL tuning, Back pressure, Refresh-ahead, OO designs, Mint/Social Graph/AWS scaling |
+| 17 | [HLD Diagrams & Visual Reference 🖼️](./17-hld-diagrams.md) | Architecture diagrams for all designs: URL Shortener, Twitter, Netflix, Uber, WhatsApp, Web Crawler, Mint, AWS Scaling + deep-dive explanations |
+
+---
+
+### 🎯 Real Interview Questions — Design Solutions
+
+| # | File | Company Context | Core Topics |
+|---|------|----------------|-------------|
+| 18 | [Hotel Booking & Proximity Search](./18-hotel-booking-proximity.md) | Booking.com | Geohash, Elasticsearch geo, optimistic locking, dynamic pricing |
+| 19 | [Nearby Places Recommender](./19-nearby-places-yelp.md) | Yelp/Google Maps/Facebook | Geo search, ranking algorithm, reviews, fake detection |
+| 20 | [Log & Media Ingestion System](./20-log-media-ingestion.md) | Any | Multi-source (API+CSV+events), CDC, Kafka, deduplication, Bloom filter |
+| 21 | [Concert Ticket Booking (Flash Sale)](./21-concert-ticket-booking.md) | Ticketmaster | Virtual queue, seat hold, oversell prevention, GA vs numbered |
+| 22 | [YouTube Design](./22-youtube-design.md) | Google | Pre-signed upload, HLS transcoding, CDN, view counter, ABR |
+| 23 | [Music Streaming + Trending Songs](./23-music-streaming-trending.md) | Spotify | Flink/Kafka trending pipeline, Redis sorted set, DRM, Cassandra |
+| 24 | [Event Ticket Booking](./24-event-ticket-booking.md) | General | Seat hold, concurrency patterns, idempotency, QR tickets |
+| 25 | [Flight Aggregation System](./25-flight-aggregation.md) | MakeMyTrip/Goibibo | Fan-out with timeout, GDS vs direct, circuit breaker, price calendar |
+| 26 | [Hotel Tag Management](./26-hotel-tag-management.md) | **Agoda** | CDC, NLP extraction, Redis sorted set, batch UPSERT, 500 reviews/sec |
+| 27 | [Reconciliation System](./27-reconciliation-system.md) | **Agoda** | Data diff, discrepancy taxonomy, idempotent runs, auto-resolution |
+| 28 | [Hotel Management System](./28-hotel-management-system.md) | Marriott/Hilton | Multi-property, pricing engine, check-in/out, RevPAR, analytics |
+| 29 | [Figma / Excalidraw Design Tool](./29-figma-excalidraw.md) | Figma | CRDT vs OT, WebSocket, Canvas vs SVG, 10K concurrent users, Yjs |
+| 30 | [Payment Gateway + Exactly-Once](./30-payment-gateway.md) | Any/Fintech | Idempotent consumer, outbox pattern, Kafka exactly-once, PCI-DSS |
+| 31 | [Car Dealer Reconciliation](./31-car-dealer-reconciliation.md) | Agoda-style | VIN match key, 4-phase pipeline, auto-resolution rules, tutored |
 
 ---
 
